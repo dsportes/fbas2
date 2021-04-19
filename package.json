@@ -3,25 +3,24 @@
   "version": "0.0.1",
   "description": "asocial app (firebase + quasar 2)",
   "productName": "Asocial",
-  "author": "daniel@sportes.fr",
+  "author": "Daniel Sportes <daniel@sportes.fr>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
-    "dev": "cross-env QENV=development quasar dev",
-    "build": "cross-env QENV=production quasar build"
+    "dev": "quasar dev",
+    "build": "quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "firebase": "^8.3.2",
     "quasar": "^2.0.0-beta.1"
   },
   "devDependencies": {
     "@quasar/app": "^3.0.0-beta.1",
-    "@quasar/quasar-app-extension-qenv": "^1.1.0",
     "babel-eslint": "^10.0.1",
-    "cross-env": "^7.0.3",
     "eslint": "^7.14.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.19.1",
